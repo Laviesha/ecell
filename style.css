@@ -1,0 +1,103 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav p {
+    text-align: center;
+    font-size: 50px;
+   
+    
+}
+nav img{
+    margin:-55px 10px 10px 300px;
+    width: 12%;
+    height: 100%;
+    background-color: transparent;
+}
+.logo img{
+    width: 100%;
+height: 380px;
+}
+
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin:23px 20px;
+    height: 209px;
+}
+
+.card h3{
+    text-align: center;
+    margin:  2px 12px;
+    margin-left: 70px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    flex-direction: row;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit; 
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.card-content{
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-size: 19px;
+}
+
+.footer{
+    color: #ede5e5;
+    margin-top: 60px;
+    align-items: center;
+    font-family: 'Yeon Sung';
+    font-size: 20px;
+    background-color: rgb(20, 52, 139);
+    height: 350px;
+   
+}
+
+.footer ul li{
+  
+    color: #ede5e5;
+    list-style: none;
+    margin-left: 800px;
+    margin-top: 30px;
+
+}
+.footer p{
+   text-align: center;
+    margin: 80px 5px 5px 90px;
+    font-size: 42px;
+}
+.h ul li{
+  
+    color: #ede5e5;
+    list-style: none;
+    margin-left: 800px;
+    margin-top: 30px;
+
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <p>Startups of IIT Roorkee</p>
+<img src="i1.webp">
+</nav>
+<div class="logo">
+    <img src="i5.webp">
+</div>
+<div class="card">
+<div class="card-box">
+<div class="card-img">
+  <img id ="myImage" src="i7.png" onclick="fetchData()" height="100%" width="100%">
+  <div class="card-content">
+   <h3> Razopray</h3>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <div class="card-box">
+    <div class="card-img">
+  <img id ="myImage" src="img2.jpg" onclick="fetchData1()" height="100%" width="100%">
+  <div class="card-content">
+   <h3> Vedantu</h3>
+  </div></div>
+</div>
+</div>
+<div class="card">
+<div class="card-box">
+    <div class="card-img">
+  <img id ="myImage" src="img3.png" onclick="fetchData2()" height="100%" width="100%">
+  <div class="card-content">
+  <h3>  Classplus</h3>
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="card">
+<div class="card-box">
+    <div class="card-img">
+  <img id ="myImage" src="img4.jpeg" onclick="fetchData3()" height="100%" width="100%">
+  <div class="card-content">
+   <h3> Fampay</h3>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="card">
+<div class="card-box">
+    <div class="card-img">
+  <img id ="myImage" src="img5.jpeg" onclick="fetchData4()" height="100%" width="100%">
+  <div class="card-content">
+   <h3 >Hackerearth</h3>
+</div>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-box">
+    <div class="card-img">
+  <img id ="myImage" src="img6.jpg" onclick="fetchData5()" height="100%" width="100%">
+  <div class="card-content">
+   <h3> Log 9 Materials</h3>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<footer>
+    <div class="footer">
+        
+         <p> For partnership opportunities mail at startup@iitr.ac.in here </p>
+        
+        <ul>
+          <li>ABOUT US</li>
+          <li>Vision</li>
+          <li>Team</li>
+          <li>Gallery</li>
+        </ul>
+        </div>
+        
+</footer>
+
+<script>
+function fetchData(){
+        fetch('https://api.ecelliitr.org/edc/community').then(response=>response.json()).then(data=>console.log(data[0]) ).catch(error=> console.log(error));
+    }
+    function fetchData1(){
+        fetch('https://api.ecelliitr.org/edc/community').then(response=>response.json()).then(data=>console.log(data[1])).catch(error=> console.log(error));
+}
+
+function fetchData2(){
+        fetch('https://api.ecelliitr.org/edc/community').then(response=>response.json()).then(data=>console.log(data[2])).catch(error=> console.log(error));
+}
+
+function fetchData3(){
+        fetch('https://api.ecelliitr.org/edc/community').then(response=>response.json()).then(data=>console.log(data[3])).catch(error=> console.log(error));
+}
+function fetchData4(){
+        fetch('https://api.ecelliitr.org/edc/community').then(response=>response.json()).then(data=>console.log(data[4])).catch(error=> console.log(error));
+}
+function fetchData5(){
+        fetch('https://api.ecelliitr.org/edc/community').then(response=>response.json()).then(data=>console.log(data[5])).catch(error=> console.log(error));
+}
+
+
+    
+    
+</script>
+
+
+</body>
+</html>
